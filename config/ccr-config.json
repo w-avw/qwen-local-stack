@@ -1,0 +1,23 @@
+{
+  "LOG": false,
+  "OPENAI_API_KEY": "sk-no-key-required",
+  "OPENAI_BASE_URL": "",
+  "OPENAI_MODEL": "",
+  "Providers": [
+    {
+      "name": "llamacpp",
+      "api_base_url": "http://127.0.0.1:8001/v1/chat/completions",
+      "api_key": "sk-no-key-required",
+      "models": ["qwen3.6-35b"],
+      "transformer": {
+        "use": ["openai"]
+      }
+    }
+  ],
+  "Router": {
+    "default": "llamacpp,qwen3.6-35b",
+    "background": "llamacpp,qwen3.6-35b",
+    "think": "llamacpp,qwen3.6-35b",
+    "longContext": "llamacpp,qwen3.6-35b"
+  }
+}

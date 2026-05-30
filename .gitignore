@@ -1,0 +1,8 @@
+models/
+qwen-installer-logs/
+*.log
+*.csv
+.cache/
+*.gguf
+ccr.log
+.bash_history
