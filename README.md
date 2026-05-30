@@ -1,5 +1,9 @@
 # Qwen Local Stack
 
+<p align="center">
+  <img src="assets/cover.png" alt="Local AI Stack — Private · Powerful · Yours" width="720">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Model](https://img.shields.io/badge/model-Qwen3.6--35B--A3B-blue)
 ![Quant](https://img.shields.io/badge/quant-UD--Q4__K__XL-blue)
